@@ -1,0 +1,110 @@
+@media only screen and (max-width : 1200px) {
+	.welcome .h1 {
+		font-size: 64px;
+	}
+	.header-contacts {
+		font-size: 14px;
+	}
+	.carousel-services-item {
+		flex-direction: column;
+	}
+	.s-king, .s-review, .s-partners {
+		padding: 8% 0;
+	}
+	.s-call {
+		background-size: cover;
+	}
+}
+@media only screen and (max-width : 992px) {
+	.welcome .h1 {
+		font-size: 48px;
+	}
+	section.s-call::before {
+		width: 100%;
+	}
+	.callback {
+		padding: 12% 0;
+	}
+	.footer-phone {
+		font-size: 24px;
+		padding-top: 0;
+	}
+	.footer-phone .fa {
+		top: 9px;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.header-contacts .phone-h {
+		text-align: left;
+	}
+	.button {
+		padding: 12px 36px;
+	}
+	section.s-call::before {
+		width: 100%;
+	}
+	.callback {
+		padding: 12% 0;
+	}
+	.quotes {
+		display: none;
+	}
+	.review-text {
+		height: 400px;
+	}
+	.partners .owl-nav div.owl-prev {
+		left: 0;
+	}
+	.partners .owl-nav div.owl-next {
+		right: 0;
+	}
+	.s-partners .h2 {
+		margin: 0;
+	}
+	.social-footer {
+		margin-top: 0;
+	}
+	.social-footer .soc li a {
+		margin-top: 0;
+	}
+	.footer-menu {
+		padding-left: 20px;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.site-header .top-line .logo img {
+		width: 200px;
+	}
+	.header-composition p {
+		font-size: 14px;
+	}
+	.welcome .h1 {
+		font-size: 28px;
+		margin-top: 5px;
+	}
+	.welcome p span {
+		font-size: 9px;
+	}
+	.welcome strong {
+		margin-top: 14px;
+		font-size: 14px;
+	}
+	section.s-call::before {
+		width: 100%;
+	}
+	.callback {
+		padding: 12% 0;
+	}
+
+}
+@media only screen and (max-width : 320px) {
+	.welcome p span {
+		font-size: 9px;
+	}
+	section.s-call::before {
+		width: 100%;
+	}
+	.callback {
+		padding: 12% 0;
+	}
+}
