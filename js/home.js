@@ -153,7 +153,7 @@ $(document).ready(function() {
       var th = $(this);
       $.ajax({
          type: "POST",
-         url: "https://mariyahaygarova.github.io/BeautySalon/", //Change http://
+         url: "mail.php",
          data: th.serialize()
       }).done(function() {
          $(th).find('.success').addClass('active').css('display', 'flex').hide().fadeIn();
